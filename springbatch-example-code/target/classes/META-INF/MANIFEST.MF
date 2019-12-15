@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: data-etlprocessor-util
+Implementation-Version: 0.3.0
+Built-By: sayto
+Implementation-Vendor-Id: org.springframework
+Build-Jdk: 1.8.0_221
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/data-etlprocessor-util
+Created-By: Maven Integration for Eclipse
+

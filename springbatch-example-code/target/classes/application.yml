@@ -1,0 +1,23 @@
+logging:
+  level:
+    org.springframework: ERROR
+    com.mkyong: DEBUG
+
+
+datasource_url: jdbc:mysql://localhost:3306/world
+datasource_username: arv
+datasource_password: arv@1234
+datasource_driver_class_name: com.mysql.cj.jdbc.Driver
+
+servers: 
+    - www.abc.test.com
+    - www.xyz.test.com
+ 
+---
+spring:
+    profiles: prod
+name: prod-YAML
+environment: production
+servers: 
+    - www.abc.com
+    - www.xyz.com
